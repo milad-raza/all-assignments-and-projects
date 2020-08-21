@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="assignment 12.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA6G4pnjaAopSSeuRnUlYFwlHSH6tuFqLs",
+    authDomain: "my-assignments-e605e.firebaseapp.com",
+    databaseURL: "https://my-assignments-e605e.firebaseio.com",
+    projectId: "my-assignments-e605e",
+    storageBucket: "my-assignments-e605e.appspot.com",
+    messagingSenderId: "522837507993",
+    appId: "1:522837507993:web:cbaeae22e35b9f364bdd08",
+    measurementId: "G-W1LJWXETWE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<body class="body" >
+
+ </script>
+
+
+    <br>
+    <center>
+    <div class="todo">
+        <br>
+        <h1 class="h1">Todo-List</h1> <br>
+        <input id="todo" type="text" placeholder="Enter todo" class="input">
+        <button class="btn btn-outline-primary mar1" onclick="add()">Add</button>
+        <button class="btn btn-outline-danger mar2" onclick="delall()">Delete All</button><br><br>
+   
+        <div>
+            <ol id="list"></ol>
+        </div>
+    </div>
+     </center>
+    
+
+
+
+
+
+
+
+    <script src="assignment 12.js"></script>
+
+</body>
+</html>

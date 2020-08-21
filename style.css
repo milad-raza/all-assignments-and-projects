@@ -1,0 +1,134 @@
+
+h1{
+     background-color: rgb(199, 55, 139);
+     color: rgb(236, 255, 200);
+     font-family: cursive;
+     text-align: center;
+     padding: 0px;
+     margin: 0px;
+}
+.aaa{
+     background-image: url(1.jpg);   
+}
+.bbb{
+     background-image: url(2.jpg);
+}
+.ccc{
+     background-image: url(3.jpg);
+}
+.ddd{
+     background-image: url(3.jpg);
+}
+.aa,.bb,.cc,.dd{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+.a,.b,.c,.d{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 3px solid rgb(63, 54, 41);
+          box-shadow: 1px 1px 5px 3px khaki;
+          width: 500px;
+          border-radius: 5px; 
+          background-color: lavender;
+               
+}
+
+
+.a1{
+     color:rgb(137, 180, 62);
+}
+.a2{
+     color:rgb(230, 89, 89);
+}
+.a3{
+     color:rgb(132, 121, 194);
+}
+.a4{
+     color:rgb(173, 48, 173);
+}
+.a5{
+     color:rgb(51, 124, 63);
+}
+.a6{
+     color:rgb(231, 75, 171);
+}
+.a7{
+     color:rgb(126, 101, 54);
+}
+.a8{
+     color:rgb(37, 182, 192);
+}
+.a9{
+     color: rgb(173, 113, 28);
+}
+.a10{
+     color: rgb(199, 55, 139);
+}
+.a11{
+     color: rgb(255, 153, 19);
+}
+.a12{
+     color: rgb(255, 19, 129);
+}
+
+
+.img{
+     display:inline;
+}
+
+.p1{
+     color: rgb(13, 114, 100);
+}
+
+
+@media all and (max-width: 320px) and (min-width: 1px){
+     .a,.b,.c,.d{
+     margin-left: 8px;
+     margin-right: 8px;
+     width: 300px;
+     text-align: center;
+     
+}
+}
+
+@media all and (max-width: 375px) and (min-width: 321px){
+     .a,.b,.c,.d{
+     margin-left: 8px;
+     margin-right: 8px;
+     width: 350px;
+     text-align: center;
+     
+}
+}
+
+@media all and (max-width: 425px) and (min-width: 376px){
+     .a,.b,.c,.d{
+     margin-left: 8px;
+     margin-right: 8px;
+     width: 400px;
+     text-align: center;
+     
+}
+}
+/*
+@media all and (max-width: 768px) and (min-width: 426px){
+     .a{
+     margin-left: 140px;
+     width: 500px;
+     text-align: center;
+     
+}
+}
+@media all and (max-width: 1440px) and (min-width: 1025px){
+     .a{
+     margin-left: 330px;
+     width: 800px;
+     text-align: center;
+     
+}
+}
+
+*/

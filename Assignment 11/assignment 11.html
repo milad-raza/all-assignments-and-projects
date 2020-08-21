@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="assignment 11.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body id="bg" class="body">
+<div class="box" id="box">
+<br>
+<h1 class="Quizhead">Welcome</h1>
+<br>
+<h3 class="a">There Are Only 3 Questions </h3>
+<h4 class="b">Each Question Containes 10 Marks</h4><br><br><br>
+    <h2 class="Quizhead1">Enter Your Name:</h2>
+    <input type="text" name="name" id="getName" class="rounded" size="26" >
+    <br><br>
+<button class="btn btn-primary" onclick="display()"><b>Submit</b></button>
+</div>
+
+
+
+<center>
+<div class="hide" id="hide">
+    <br>
+    <h1 id="name">Name</h1>
+    <br>
+    <h1 id="ques">Question</h1>
+    <br>
+    <div id="hideit">
+    <p class="option rounded" id="option" onclick="active(this)">Option1</p>
+    <p class="option rounded" id="option" onclick="active(this)">Option2</p>
+    <p class="option rounded" id="option" onclick="active(this)">Option3</p>
+    <p class="option rounded" id="option" onclick="active(this)">Option4</p><br>
+    <button class="btn btn-danger" id="next" onclick="display()"><b>Next Question</b></button>
+    </div>
+    <br><br>
+</div>
+<div class="retry" id="retry">
+    <h4><a href="assignment 11.html"  class="a"><b>Retry</b></a></h4>
+</div>
+</center>
+
+<script src="assignment 11.js"></script>   
+</body>
+</html>

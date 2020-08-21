@@ -1,0 +1,66 @@
+.body{
+    height: 100vh;
+    background-image: linear-gradient( #306e6c  , rgb(125, 79, 134) 100%);
+}
+.Quizhead{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 70px;
+    background-color: rgb(121, 47, 218);
+    font-family: fantasy;
+}
+.Quizhead1{
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+}
+.box{
+    text-align: center;
+}
+.hide{
+    background-color: rgb(0, 0, 0);
+}
+#ques{
+    color: cornsilk;
+    background-color: darkblue;
+    padding-left: 10px;
+}
+.option{
+    background-color: rgb(0, 0, 0);
+    color: lightgray;
+    padding-left: 10px;
+    font-weight: bold;
+    height: 40px;
+    width: 70%;
+}
+#next{
+    margin-left: 1%;
+
+}
+.active{
+    background-color: mediumturquoise;
+    color: black;
+}
+.hide{
+    display: none;
+}
+.black{
+    background-color: black;
+}
+#name{
+    color: red;
+}
+.option:hover{
+    background-color: lightblue;
+    color: black;
+}
+.a{
+   color: lightsalmon;
+
+}
+.b{
+    color: lime;
+}
+.retry{
+    display: none;
+}

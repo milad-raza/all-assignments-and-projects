@@ -1,0 +1,41 @@
+body{
+    background-image : url("1.jpg");
+
+}
+.text{
+    color: rgb(117, 9, 103);
+    border:3px solid yellowgreen;
+    width: 306px;
+    margin-top: 50px;
+    text-decoration: underline;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: black;
+    
+}
+.main{
+    border:3px solid yellowgreen;
+    width: 306px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: black;
+    
+}
+.input{
+    width: 35px;
+    margin: 20px 3px 20px 3px;
+    background-color: rgb(221, 201, 201);
+    border-radius: 7px;
+}
+.button{
+    width: 65px;
+    margin: 3px;
+}
+.button1{
+    width: 140px;
+    margin: 3px;
+}
+.button2{
+    width: 280px;
+    margin: 3px;
+}

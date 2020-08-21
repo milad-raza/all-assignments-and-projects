@@ -1,0 +1,79 @@
+.body{
+    background-color: rgb(37, 34, 34);
+}
+.todo{
+    width: 70%;
+    border: 2px solid greenyellow;
+    background-color: honeydew;
+    border-radius: 10px;
+}
+.h1{
+    color: indigo;
+}
+.input{
+    border: none;
+    border-bottom: 3px solid olive;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.a,.mar1{
+    position: absolute;
+    right: 300px;
+}
+.aa,.mar2{
+    position: absolute;
+    right: 200px;
+}
+.z{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:426px){
+    .todo{
+        width: 100%;
+    }
+    .input{
+        margin-right: 136px;  
+    }
+
+    .width2,.mar1,.mar2{
+        font-size: small !important;
+    }
+    .a{
+        position: absolute;
+        right: 70px;
+    }
+    .mar1{
+        position: absolute;
+        right: 90px;
+    }
+    .aa,.mar2{
+        position: absolute;
+        right: 4px;
+    }
+    .z{
+       
+        text-align: start;
+    }
+
+}
+@media only screen and (min-width:767px){
+   
+   .input{
+       margin-right: 200px;
+   }
+   .z{
+       text-align: start;
+   }
+}
+@media only screen and (min-width:1439px){
+
+    .todo{
+        width: 100%;
+    }
+    .z{
+        text-align:center ;
+    }
+}

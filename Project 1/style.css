@@ -1,0 +1,416 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 8px;
+}
+.one{
+    background-color: #0071ba;
+    font-family: calibri;
+    color: white;
+}
+.bgl{
+    background-color: rgb(247, 247, 247);
+}
+.box{
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
+}
+.margin{
+       margin-left: 24%;
+}
+.imi{
+    height: 500px;
+}
+table{
+    width: 90% !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+}
+th{
+    border: solid 1px white !important;
+    border-style: none solid solid none !important;
+    padding: 10px !important;
+}
+tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+}
+tr:first-child th:last-child{
+    border-top-right-radius: 10px;
+}
+
+
+.s{
+    font-size: 3.75em;
+
+}
+.w{
+    width: 3.75em;
+    text-align: center;
+    margin-right: 0.4em;
+}
+.w1{
+    width: 5.96em;
+    text-align: center;
+    margin-right: 0.4em;
+
+}
+.w2{
+    width: 6.13em;
+    text-align: center;
+ 
+}
+.w3{
+    width: 12.20em;
+    text-align: center;
+    margin-right: 0.4em;
+}
+.w4{
+    width: 6.25em ;
+    text-align: center;
+    margin-right: 0.5em;
+}
+.w5{
+    width: 8.15em;
+    text-align: center;
+    margin-right: 0.4em;
+}
+.w7{
+    width: 6em;
+    text-align: center;
+    margin-right: 0.4em;
+}
+
+.act,.h:hover{
+    background-color: #00aeed !important;
+    color: white !important; 
+    font-weight: bold !important;
+}
+.int{
+    font-weight: bold;
+    color: #0071ba;
+    
+
+
+}
+.full{
+    color:#00aeed;
+    font-size: x-large;
+
+}
+.para{
+    width: 90%;
+   text-align: justify;
+
+    
+}
+.list1{
+   
+    padding-right: 0px;
+    padding-left: 28px;
+    text-align: start;
+
+}
+.list2{
+    padding-right: 0px;
+    padding-left: 20px;
+    text-align: start;
+
+}
+
+.be{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wah{
+    width: 400px;
+}
+.hr{
+    width: 10%;
+    border-bottom:4px solid #0071ba;
+    height:50px;
+    border-radius:4px;
+}
+.p{
+    border-radius: 100px !important;
+}
+
+/* machinery*/
+
+.bg{
+    background-color: #0071ba;
+    color: white !important;
+    /* border-left: 10px solid white !important;
+    border-right: 10px solid white !important; */
+    text-align: center !important;
+}
+.bg1{
+    background-color: #00aeed;
+    color: white !important;
+    /* border-left: 10px solid white !important;
+    border-right: 10px solid white !important; */
+    text-align: center !important;
+    font-weight: bold;
+}
+
+/* footer */
+.hide{
+    display: none;
+}
+.cl2{
+    color: rgb(229, 231, 228);
+}
+.bg2{
+    background-color: #000000;
+    color: rgb(229, 231, 228);
+}
+.mar{
+    margin-left: 5%;
+}
+.white{
+    color:white
+}
+.icon2{
+    width:15px;
+    height: 15px;
+    margin-left:1%;
+    padding-bottom: 1px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.dis{
+    display:inline;
+}
+.dis2{
+    display:inline;
+    margin-left: 10px;
+}
+.l{
+    margin-left: 3%;
+}
+.bg3{
+    background-color: #00aeed;
+    color: rgb(229, 231, 228);
+    font-weight: bold;
+    text-align: center;
+}
+.aa{
+    margin-right: 1em;
+}
+.hr1{
+    background-color: #00aeed;
+    width:10.5em;
+    height: 0.2em;
+    border-radius: 100px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
+/*products*/
+
+.cl{
+    color: #0071ba;
+}
+.cl1{
+    color: #00aeed;
+}
+.p1{
+    width: 66%;
+    height: 350px;
+}
+.p2{
+    width: 78%;
+    height: 180px;
+}
+
+
+/* Services*/
+.bg4{
+    background-color: #0071ba;
+    color: white;
+}
+.b{
+    font-weight: bold;
+}
+.wah1{
+    width: 500px;
+}
+
+/* contact */
+.bg5{
+    background-color: #0071ba;
+    color: white;
+}
+.bdr{
+    width: 98%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+.con{
+    margin-left: 40px;
+}
+.int2{
+    text-align: start;
+}
+/* banking */
+.awh{
+    width: 320px;
+    height: 200px;
+}
+.bwh{
+    width: 240px;
+    height: 180px;
+}
+.bwh1{
+    width: 250px;
+    height: 150px;
+}
+.bwh2{
+    width: 200px;
+    height: 220px;
+}
+/* directors */
+.dwh1{
+    width:200px;
+    height:250px;
+}
+.dwh{
+    width: 200px;
+    height: 200px;
+}
+.wwww{
+    width:300px;
+    text-align: center;
+   
+}
+.bggr{
+    background-color: rgb(229, 231, 230);
+}
+.hrh{
+    height: 0.1em;
+    background-color: #00aeed;
+    margin-right: 10%;
+    margin-left: 5%;
+    border-radius: 100px;
+}
+/* clients */
+.cwh{
+    width: 169px;
+}
+@media only screen and (max-width:321px){
+    .bg1{
+        font-weight: unset;
+    } 
+}
+
+
+@media only screen and (max-width:426px){
+    .one{
+    background-image :linear-gradient(to right ,rgb(123, 146, 247) 100%,rgb(123, 146, 247));
+    }
+    .s{
+        font-size: 2.97em;
+    }
+    .sa{
+        font-size: 1.6em;
+    }
+    .full{
+        font-size:1.2em;
+    }
+    .p{
+        margin-bottom: 0.8em;
+    }
+    .margin{
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .int{
+        font-size: 2em;
+        text-align: start;
+    }
+    .int1{
+        font-size: 1.2em;
+    }
+    .be{
+        font-size: x-large;
+    }
+    .wah{
+        width: 280px;
+    }
+    .l{
+        margin-left: 10%;
+    }
+    .imi{
+        height: 200px;
+    }
+    .bg3{
+        font-size: small;
+    }
+   .wah1{
+        width: 280px;
+    }
+    .con{
+        margin-left: unset;
+    }
+    .awh{
+        width: 94%;
+        height: 200px;
+    }
+    .p1{
+        width: 96%;
+        height: auto;
+    }
+    .p2{
+        width: 94%;
+        height: 100px;
+    }
+    .p3{
+        width: 96%;
+        height: auto;
+    }
+
+    .dwh1{
+        width:200px;
+        height:210px;
+    }
+    .logo{
+        width: 150px;
+        height: 40px;
+        margin-left: 0px;
+    }
+    .hide{
+        display: unset;
+    }
+   
+
+}
+@media only screen and (max-width:801px){
+    .margin{
+        margin-left: 1%;
+    }
+    .logo{
+        width: 140px;
+        height: 40px;
+        margin-left: 0px;
+    }
+}

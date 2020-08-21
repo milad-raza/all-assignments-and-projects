@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript</title>
+    <link rel="stylesheet" href="assignment 9.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<!-- Chapters #43-48 -->
+<!--task#1 -->
+<a href="javascript:void(0)" onclick="alertt1()">Link</a>
+<!--task#2 -->
+<h3>Mobile Phone Lookup</h3>
+<img src="images/mobile1.png"  onclick="alert2()" class="images">
+<img src="images/mobile2.png"  onclick="alert2()" class="images">
+<img src="images/mobile3.png"  onclick="alert2()" class="images">
+<img src="images/mobile4.png"  onclick="alert2()" class="images">
+<!--task#3 -->
+<table>
+    <tr>
+        <td><b>Index</b></td>
+        <td><b>Name</b></td>
+        <td><b>Class</b></td>
+    </tr>
+    <tr id="tr0">
+        <td>0</td>
+        <td>jhone</td>
+        <td>2nd</td>
+        <td><button onclick="deli0()">Delete</button></td>
+    </tr>
+    <tr id="tr1">
+        <td>1</td>
+        <td>mike</td>
+        <td>4th</td>
+        <td><button onclick="deli1()">Delete</button></td>
+    </tr>
+    <tr id="tr2">
+        <td>2</td>
+        <td>alex</td>
+        <td>7th</td>
+        <td><button onclick="deli2()">Delete</button></td>
+    </tr>
+    <tr id="tr3">
+        <td>3</td>
+        <td>doe</td>
+        <td>2nd</td>
+        <td><button onclick="deli3()">Delete</button></td>
+    </tr>
+    <tr id="tr4">
+        <td>4</td>
+        <td>james</td>
+        <td>4th</td>
+        <td><button onclick="deli4()">Delete</button></td>
+    </tr>
+    <tr id="tr5">
+        <td>5</td>
+        <td>oba</td>
+        <td>5th</td>
+        <td><button onclick="deli5()">Delete</button></td>
+    </tr>
+    <tr id="tr6">
+        <td>6</td>
+        <td>hobart</td>
+        <td>2nd</td>
+        <td><button onclick="deli6()">Delete</button></td>
+    </tr>
+    <tr id="tr7">
+        <td>7</td>
+        <td>hazel</td>
+        <td>4th</td>
+        <td><button onclick="deli7()">Delete</button></td>
+    </tr>
+    <tr id="tr8">
+        <td>8</td>
+        <td>eliza</td>
+        <td>2nd</td>
+        <td><button onclick="deli8()">Delete</button></td>
+    </tr>
+    <tr id="tr9">
+        <td>9</td>
+        <td>theo</td>
+        <td>5th</td>
+        <td><button onclick="deli9()">Delete</button></td>
+    </tr>
+    
+</table>
+<!--task#4 -->
+<img src="images/1.jpg" alt="" onmouseover="over(this)"  onmouseout="out(this)" width="800px">
+
+
+<!--task#5 -->
+<br>
+<button class=" btn btn-outline-primary" onclick="inc()"><b>+</b></button>
+<div class="a" id="result">0</div>
+<button class=" btn btn-outline-danger" onclick="dec()"><b>-</b></button>
+
+<!-- Chapters #49-52 -->
+<!--task#1 -->
+<br><br>
+<form action="">
+    Fullname: <input type="text" id="fullname">
+    Email: <input type="email" id="email">
+    Date of birth: <input type="date" id="date">
+    <button class="btn1" id="reset" onclick="signup()">signup</button>    
+</form>
+<div id="print"></div>
+
+<!--task#2 -->
+<br>
+<center>
+<img src="images/mobile1.png" alt="" width="150px">
+<p id="exp">Infinix note 7 <br> price:28,999 </p>
+<a href="javascript:void(0)" onclick="details()">Details</a>
+</center>
+
+<!--task#3 -->
+<br>
+<table>
+    <tr>
+        <td><b>Index</b></td>
+        <td><b>Name</b></td>
+        <td><b>Class</b></td>
+    </tr>
+    <tr id="tri0">
+        <td>0</td>
+        <td id="td1">jhone</td>
+        <td id="td2">2nd</td>
+        <td><button onclick="edit0()">Edit</button></td>
+        <td><button onclick="del0()">Delete</button></td>
+    </tr>
+    <tr id="tri1">
+        <td>1</td>
+        <td id="td3">mike</td>
+        <td id="td4">4th</td>
+        <td><button onclick="edit1()">Edit</button></td>
+        <td><button onclick="del1()">Delete</button></td>
+    </tr>
+    <tr id="tri2">
+        <td>2</td>
+        <td id="td5">alex</td>
+        <td id="td6">7th</td>
+        <td><button onclick="edit2()">Edit</button></td>
+        <td><button onclick="del2()">Delete</button></td>
+    </tr>
+    <tr id="tri3">
+        <td>3</td>
+        <td id="td7">doe</td>
+        <td id="td8">2nd</td>
+        <td><button onclick="edit3()">Edit</button></td>
+        <td><button onclick="del3()">Delete</button></td>
+    </tr>
+    <tr id="tri4">
+        <td>4</td>
+        <td id="td9">james</td>
+        <td id="td10">4th</td>
+        <td><button onclick="edit4()">Edit</button></td>
+        <td><button onclick="del4()">Delete</button></td>
+    </tr>
+    <tr id="tri5">
+        <td>5</td>
+        <td id="td11">oba</td>
+        <td id="td12">5th</td>
+        <td><button onclick="edit5()">Edit</button></td>
+        <td><button onclick="del5()">Delete</button></td>
+    </tr>
+    <tr id="tri6">
+        <td>6</td>
+        <td id="td13">hobart</td>
+        <td id="td14">2nd</td>
+        <td><button onclick="edit6()">Edit</button></td>
+        <td><button onclick="del6()">Delete</button></td>
+    </tr>
+    <tr id="tri7">
+        <td>7</td>
+        <td id="td15">hazel</td>
+        <td id="td16">4th</td>
+        <td><button onclick="edit7()">Edit</button></td>
+        <td><button onclick="del7()">Delete</button></td>
+    </tr>
+    <tr id="tri8">
+        <td>8</td>
+        <td id="td17">eliza</td>
+        <td id="td18">2nd</td>
+        <td><button onclick="edit8()">Edit</button></td>
+        <td><button onclick="del8()">Delete</button></td>
+    </tr>
+    <tr id="tri9">
+        <td>9</td>
+        <td id="td19">theo</td>
+        <td id="td20">5th</td>
+        <td><button onclick="edit9()">Edit</button></td>
+        <td><button onclick="del9()">Delete</button></td>
+    </tr>
+    
+</table>
+<!-- Chapters #52-57 -->
+<!--task#1 -->
+
+<img class="images" src="images/3.jpg" alt=""  data-toggle="modal" data-target="#exampleModal" onclick="show(this)">
+<img class="images" src="images/4.png" alt=""  data-toggle="modal" data-target="#exampleModal" onclick="show(this)">
+<img class="images" src="images/5.jpg" alt=""  data-toggle="modal" data-target="#exampleModal" onclick="show(this)">
+<img class="images" src="images/6.jpg" alt=""  data-toggle="modal" data-target="#exampleModal" onclick="show(this)">
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Full Image</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <img src="" alt="" id="get" class="size">
+        </div>
+     </div>
+    </div>
+  </div>
+
+<!--task#2 -->
+<center>
+    <p class="par" id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Excepturi, aliquam atque nobis distinctio, itaque, delectus laborum
+        corporis reprehenderit eius quae deleniti dolorum ipsum? 
+        Cumque exercitationem totam eum eos aliquid tempora!</p>
+        <button class="btn btn-outline-primary mr-3 btn2" onclick="incr()"><b>+</b></button>
+        <button class="btn btn-outline-danger btn2" onclick="decr()"><b>-</b></button>        
+</center>
+
+<!-- Chapters #58-67 -->
+<!--task#1 & 2 -->
+<div><h1> DOM </h1><div id="form-content" class="content"><label for="first-name">First Name</label><input type="text" id="first-name" /><label for="last-name">Last Name</label><input type="text" id="last-name" /><label for="email">Email</label><input type="text" id="email" /></div><div id="main-content" class="content"><p class="render"> First Name : Alex</p><p class="render" id="lastName">Last Name: Bank</p><p class="render"> Email : alexbank@example.com</p><p class="render"> Country : Pakistan </p><p class="render"> contact : +92 300 1234567</p></div></div>
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="assignment 9.js"></script>
+</body>
+</html>
