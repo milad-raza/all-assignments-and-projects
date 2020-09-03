@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-image: radial-gradient(aliceblue 60%,pink);
+    text-align: center;
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+.center1,.center2,.center3{
+    text-align: center;
+}
+.center2{
+    margin-left: 10px;
+}
+.center3{
+    margin-left: 20px;
+}
