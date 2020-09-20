@@ -5,7 +5,7 @@ body{
     align-items: center;
 }
 .box{
-    background-image: radial-gradient(aliceblue 60%,pink);
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
     text-align: center;
     width: 90%;
     height: 500px;

@@ -1,4 +1,3 @@
-alert("Welcome");
 
 function new1(){
 
