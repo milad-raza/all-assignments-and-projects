@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApp-Login</title>
+    <link rel="stylesheet" href="assignment 13.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyA6G4pnjaAopSSeuRnUlYFwlHSH6tuFqLs",
+        authDomain: "my-assignments-e605e.firebaseapp.com",
+        databaseURL: "https://my-assignments-e605e.firebaseio.com",
+        projectId: "my-assignments-e605e",
+        storageBucket: "my-assignments-e605e.appspot.com",
+        messagingSenderId: "522837507993",
+        appId: "1:522837507993:web:5b6717da06bfd1ca4bdd08",
+        measurementId: "G-45M8J2T07L"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+</head>
+<body class="body">
+  <center>
+  <div class="main">
+  <h1 class="chat">Chat App</h1>
+  <button class="btn btn-blue" onclick="login()" id="top"><img src="icons/facebook.png" width="20px" height="20px" class="facebook"> Login With Facebook</button>
+  <br class="hide spa">
+  <br class="hide spa1">
+  <br class="hide spa2">
+  <h1 id="heading"></h1> <br>
+  <ul><h3 id="list"></h3></ul>
+  <div class="list hide">
+  <div class="inputdiv"></div>
+  <div class="buttondiv" id="send"></div>  
+  </div>
+  <ul class="ul" id="list1" ></ul>
+  <br class="inm">
+  <br class="inm">
+  <span id="down"></span>
+  </div>
+  
+  
+  </center>
+  <script src="assignment 13.js"></script>
+</body>
+</html>
