@@ -7,6 +7,7 @@ let login = () =>{
     var user = result.user;
 
     function add(){
+
       
       // sender
       let sender = document.querySelector(".ul")
@@ -92,10 +93,10 @@ let login = () =>{
 function mainapp(sendto){
 
   var heading = document.getElementById("heading")
-  heading.remove();
+  heading.className = "hide"
 
   var list = document.getElementById("list")
-  list.remove()
+  list.className = "hide"
    
   let change = document.querySelector(".newmain")
   change.className = "newmain1"
@@ -103,9 +104,6 @@ function mainapp(sendto){
 
   let name = document.querySelector(".chat")
   name.innerHTML = sendto.innerHTML
-
-  // let br2 = document.querySelector(".spa2")
-  // br2.remove()
 
   let inputdiv = document.querySelector(".inputdiv")
   let input = document.createElement("input")
@@ -159,12 +157,8 @@ function mainapp(sendto){
         p.appendChild(time)
         list1.appendChild(p) 
       }
-
-
-  console.log(data.val().sendto)
-  console.log(sender)
     }
-    else if(data.val().sendto === sender){
+    else if(data.val().sender === sendto.innerHTML){
       li.className = "available2"
       li.appendChild(message)
       list1.appendChild(li)
@@ -173,24 +167,12 @@ function mainapp(sendto){
       p.appendChild(time)
       list1.appendChild(p)
       }
-
-    
-
-    
-    
-    
-    
-
-     
-    
-
-    
   })
-
 }
 
 const send = () =>{
   let text = document.querySelector(".inp")
+  
 
   
   if(text.value === ""){
@@ -244,13 +226,3 @@ const send = () =>{
 
   
 } 
-
-// let signout = () => {
-//   firebase.auth().signOut()
-//   .then(()=>{
-//     console.log("signout")
-//   })
-//   .catch(()=>{
-//     console.log("error")
-//   })
-// }
