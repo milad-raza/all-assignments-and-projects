@@ -93,10 +93,10 @@ let login = () =>{
 function mainapp(sendto){
 
   var heading = document.getElementById("heading")
-  heading.className = "hide"
+  heading.remove()
 
   var list = document.getElementById("list")
-  list.className = "hide"
+  list.remove()
    
   let change = document.querySelector(".newmain")
   change.className = "newmain1"
